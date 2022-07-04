@@ -5,46 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/site_icon3-1.png" type="image/png">
-    <title>Там de DBEPI — продаж міжкімнатних та віхдних дверей</title>
+    <link rel="icon" href="./img/tddIcon.png" type="image/png">
+    <title>Tam de DBEPI - продаж міжкімнатних та вхідних дверей</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100&family=Montserrat:wght@100;200;400;700&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <header class="header-menu">
-        <div class="logo-company">
-            <img src="img/logo_for_site.png" alt="logo" class="logo-img">
+<body class="main__body">
+    <!-- Header -->
+    <header>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> <img src="./img/logo.png" alt="img" class="header__logo"> <span> салон вхідних та
+                        міжкімнатиних дверей </span> </div>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#about" class="menu__item-link" data-scroll>Про нас</a></li>
+                    <li class="menu__item"><a href="#projects" class="menu__item-link" data-scroll>Наші роботи</a></li>
+                    <li class="menu__item"><a href="#contacts" class="menu__item-link" data-scroll>Контакти</a></li>
+                    <li class="menu__item"><a href="https://www.facebook.com/TamdeDveri/" target="_blank"
+                            class="menu__item-link" data-scroll>
+                            <img class="logo__fb" src="img/icon-facebook.png" alt="facebook"> </a></li>
+                    <li class="menu__item"><a href="https://www.instagram.com/tamdedveri/" target="_blank"
+                            class="menu__item-link" data-scroll>
+                            <img class="logo__inst" src="img/icon-instagram.png" alt="instagram"> </a></li>
+                </ul>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
         </div>
-        <nav class="menu-list">
-            <ul>
-                <li><a href="#header-services">Послуги</a></li>
-                <li><a href="#header-products">Продукція</a></li>
-                <li><a href="#header-installation">Послуги з монтажу</a></li>
-                <li><a href="#header-about">Про компанію</a></li>
-                <li><a href="#header-contacts">Контакти</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="services">
-            <h3 class="title-page" id="header-services">Послуги</h3>
-        </div>
-        <div class="products">
-            <h3 class="title-page" id="header-products">Продукція</h3>
-        </div>
-        <div class="installation">
-            <h3 class="title-page" id="header-installation">Послуги з монтажу</h3>
-        </div>
-        <div class="about">
-            <h3 class="title-page" id="header-about">Про компанію</h3>
-        </div>
-        <div class="contacts">
-            <h3 class="title-page" id="header-contacts">Контакти</h3>
-        </div>
-    </main>
-    <footer>
+    </nav>
+</header>
 
-    </footer>
+    <!-- Main Page -->
+    <main>
+        <section class="section__about" id="about">
+    <div class="container">
+        <div class="container__about">
+            <div class="count__block_about">
+                <h1 class="title__about">5</h1>
+                <h2 class="subtitle__about">років</h2>
+                <h3 class="text__about">з початку роботи</h3>
+            </div>
+            <div class="title__block_about">
+                <h2 class="subtitle__about">секрет успіху</h2>
+                <h1 class="title__about">наших проектів</h1>
+            </div>
+            <div class="text__block_about">2017 рік відкриття виставкового салону <a href="#">Там de DBEPI</a>
+                <br><br>
+                Основна мета - надання якісної консультації завдяки доскональному знанню продукції, допомога в виборі дверей, що
+                максимально задовільнить потреби кліэнта та супровід на всіх етапах від вибору до прийняття в експлуатацію:
+                <br>
+                <ul class="text__block_about_list">
+                    <li class="text__block_about_item">підбір міжкімнатних дверей та фурнітури</li>
+                    <li class="text__block_about_item">виконання замірів</li>
+                    <li class="text__block_about_item">доставка та монтаж</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+        <section class="section__progects" id="projects">
+    <div class="container">
+        <div class="projects__allBlock">
+            <div class="projects__textBlock">
+                <div class="projects__textBlockTitle">наші проекти</div>
+                <div class="projects__textBlockSubtitle">фото-галерея</div>
+                <div class="projects__textBlockText">задоволені клієнти які отримали те чого вони прагнули...</div>
+            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"> <img src="../img/slider/slide1.png" alt="img" class="slwiper-slide-img"> </div>
+                    <div class="swiper-slide"> <img src="../img/slider/slide2.png" alt="img" class="slwiper-slide-img"> </div>
+                    <div class="swiper-slide"> <img src="../img/slider/slide3.png" alt="img" class="slwiper-slide-img"> </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__title">контакти</div>
+        <div class="contacts__block">
+            
+            <div class="contacts__block_info">
+                <span> Салон Tam de DBEPI </span>
+                <span> Львів, вул.Стрийська 45а </span>
+                <a href="tel:+380984823286">+38 (098) 4823286</a>
+                <a href="tel:+380664611469">+38 (066) 4611469</a>
+                <a href="mailto:tamdedveri@gmail.com">tamdedveri@gmail.com</a>
+                <a href="https://www.facebook.com/TamdeDveri/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/tamdedveri/" target="_blank">Instagram</a>
+            </div>
+            <div class="contacts__block_map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10300.53104391715!2d24.019903!3d49.8023717!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd60b5b859b8d6379!2sTam%20De%20Dveri!5e0!3m2!1sen!2sua!4v1655281774756!5m2!1sen!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="submit">
+    <div class="container">
+        <div class="submit__form">
+            <div class="submit__title">Напишіть нам</div>
+            <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgjdddv"
+                method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Ваше ім'я:</label>
+                    <input type="text" name="name" id="full-name" placeholder="Ім'я та прізвище" required="">
+                    <label for="email-address">Ваш e-mail:</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@gmail.com" required="">
+                    <label for="message">Ваше повідомлення:</label>
+                    <textarea rows="5" name="message" id="message"
+                        placeholder="Залиште ваше повідомлення тут... "
+                        required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Надіслати">
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+
+        <div class="footer__navbar">
+            <div class="footer__logo"> <img src="./img/logo.png" alt="img" class="footer__logo_img"> 
+                <!-- <span> (c)Tam de
+                    DBEPI 2022
+                </span>  -->
+            </div>
+            <ul class="footer__menu">
+                <li class="footer__menu_item"><a href="https://www.facebook.com/TamdeDveri/" target="_blank"
+                        class="footer__menu_item-link" data-scroll>
+                        <img class="footer__logo__fb" src="img/icon-facebook.png" alt="facebook"> </a></li>
+                <li class="footer__menu_item"><a href="https://www.instagram.com/tamdedveri/" target="_blank"
+                        class="footer__menu_item-link" data-scroll>
+                        <img class="footer__logo_inst" src="img/icon-instagram.png" alt="instagram"> </a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
 
 </body>
+
+<script src="./js/scripts.min.js"></script>
 
 </html>
